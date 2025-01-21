@@ -74,7 +74,7 @@ gameStart:
     ja lvlG
 
 resumeStart:
-    mov di, 10
+    mov di, 10               ; Initializarea contorului de incercari cu 10
     mov ah, 00h              
     int 1Ah                  ; Obtinerea timpului sistemului pentru numarul aleatoriu
     mov ax, dx       
